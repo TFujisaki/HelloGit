@@ -81,7 +81,7 @@ void CHelloGitView::OnDraw(CDC* pDC)
 	// フォントオブジェクトを画面(DC)に設定する
 	CFont* font2 = pDC->SelectObject(&font1);
 	// テキストを画面に描画する
-	pDC->TextOut(20, 20, "Hello Git World. Test git checkout.");
+	pDC->TextOut(20, 20, "Hello Git World. Test git checkout. again.");
 	// フォントを元に戻しておく
 	pDC->SelectObject(font2);
 }
