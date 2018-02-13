@@ -83,6 +83,7 @@ void CHelloGitView::OnDraw(CDC* pDC)
 	// テキストを画面に描画する
 	pDC->TextOut(20, 20, "Hello Git World. Test git checkout. again.");
 	pDC->TextOut(80, 80, "Push from local repository.");
+	pDC->TextOut(160, 160, "Test. 2018.02.13.");
 
 	// フォントを元に戻しておく
 	pDC->SelectObject(font2);
